@@ -14,16 +14,20 @@ This script installs:
 * [fabric](http://www.fabfile.org/)
     * It's an easy way to use pip to install fabric:
 
-
-    $ pip install fabric
+```
+$ pip install fabric
+```
 
 ## How to use
 
 Please use this script with fabric.
 
-    $ fab install
-    No hosts found. Please specify (single) host string for connection: <enter the host>
-    ...<before installing JDK7, you need to press enter key.>...
+```
+$ fab install
+No hosts found. Please specify (single) host string for connection: host1
+[host1] outPress [ENTER] to continue or ctrl-c to cancel adding it
+...<before installing JDK7, you need to press enter key.>...
+```
 
 Now, you can build hadoop!
 [Document of Fabric](http://fabric.readthedocs.org/en/1.8/) is also useful.
