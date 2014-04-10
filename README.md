@@ -14,7 +14,8 @@ This script installs:
 * [fabric](http://www.fabfile.org/)
     * It's an easy way to use pip to install fabric:
 
-    pip install fabric
+
+    $ pip install fabric
 
 ## How to use
 
