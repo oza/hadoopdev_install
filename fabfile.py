@@ -91,7 +91,7 @@ def addenv(newenv):
 
 
 # Run entire setup
-def setup_hadoopdev():
+def install():
     setup_locale()
     setup_hadoopenv()
     install_git()

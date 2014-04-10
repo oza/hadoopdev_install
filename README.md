@@ -20,7 +20,7 @@ This script installs:
 
 Please use this script with fabric.
 
-    $ fab setup_hadoopdev
+    $ fab install
     No hosts found. Please specify (single) host string for connection: <enter the host>
     ...<before installing JDK7, you need to press enter key.>...
 
